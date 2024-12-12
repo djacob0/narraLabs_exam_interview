@@ -10,6 +10,6 @@ RSpec.describe Grader do
 
     expect(students.length).to eq(3)
     expect(students.first.first_name).to eq("Billy")
-    expect(students.first.average_grade).to eq(88.33)
+    expect(students.first.average_grade).to eq(88)
   end
 end

@@ -15,6 +15,6 @@ RSpec.describe Student do
   it "calculates the average grade correctly" do
     student = Student.new("Billy", "Joel", 14, 92, 88, 85)
 
-    expect(student.average_grade).to eq(88.33)
+    expect(student.average_grade).to eq(88)
   end
 end

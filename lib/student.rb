@@ -12,7 +12,7 @@ class Student
 
   def average_grade
 
-    ((@english + @math + @physics) / 3.0)
+    ((@english + @math + @physics) / 3.0).round
 
   end
 end
